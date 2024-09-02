@@ -1,4 +1,9 @@
-﻿
+﻿CREATE DATABASE Ensek;
+GO
+
+USE Ensek;
+GO
+
 CREATE TABLE [dbo].[Accounts](
 	[AccountId] [int] NOT NULL,
 	[FirstName] [nvarchar](50) NOT NULL,
